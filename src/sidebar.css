@@ -41,7 +41,7 @@
 #long-menu .MuiMenu-paper{
   width: 220px;
   max-height: 100vh;
-  left: 40% !important;
+  left: 60% !important;
   top: unset !important;
 }
 #long-menu .MuiListItem-root{
