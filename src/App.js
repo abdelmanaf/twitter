@@ -1,14 +1,8 @@
-import {useState} from "react"
+import "./App.css"
 import Sidebar from "./Sidebar"
-
-
 function App() {
-
-  return (
-    <div>
-      <Sidebar />
-    </div>
-  )
+    return (
+      <Sidebar/>
+    );
 }
-
-export default App;
+export default App

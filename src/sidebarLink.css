@@ -14,3 +14,7 @@
     font-size: 20px;
     margin-right: 20px;
   }
+
+  .link > .MuiSvgIcon-root {
+    padding: 20px;
+  }
