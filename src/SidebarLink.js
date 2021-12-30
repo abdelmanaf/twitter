@@ -1,4 +1,4 @@
-import "sidebarLink.css";
+import "./sidebarLink.css";
 
 import React from 'react'
 
