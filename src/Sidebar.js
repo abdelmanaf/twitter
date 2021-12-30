@@ -44,12 +44,14 @@ function Sidebar(){
   ];
 
     const [open, setOpen] = useState(false);
-    const handleClose = () => {
-        setOpen(false);
-    }
+
     const handleClick = (event) => {
         setOpen(true);
     };
+
+    const handleClose = () => {
+        setOpen(false);
+    }
 
   return(
     <div className="sidebar">
@@ -71,12 +73,12 @@ function Sidebar(){
             open={open}
             onClose={handleClose}
         >
-        </Menu>
         {options.map((option) => (
             <MenuItem key={option.link} onClick={handleClick}>
             {option.icon} {option.link}
             </MenuItem>
         ))}
+        </Menu>
     </div>
   );
 }
